@@ -21,7 +21,7 @@ class MyGame:
 
 
         # Adding the labels
-        self.label = tk.Label(self.root, text="Rock Paper Scissors\n", bg="#ffc6d9", font=("fixedsys", 40, "bold", "underline"))
+        self.label = tk.Label(self.root, text="Rock Paper Scissors\n", bg="#ffc6d9", font=("fixedsys", 65, "bold", "underline"))
         self.label.pack()
         self.label2 = tk.Label(self.root, text="  PLAYER    V.S   COMPUTER", borderwidth="10", relief="ridge", fg="black", font=("fixedsys", 35, "bold"))
         self.label2.pack()
